@@ -5,7 +5,7 @@
 ### Usage
 1. install the package
 ```
-go get github.com/jaddqiu/grpc-location/service
+go get github.com/jaddqiu/grpc-location-service
 ```
 
 2. start the server
