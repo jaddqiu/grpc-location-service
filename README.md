@@ -4,7 +4,9 @@
 
 ### Usage
 1. install the package
+```
 go get github.com/jaddqiu/grpc-location/service
+```
 
 2. start the server
 
@@ -13,7 +15,7 @@ cd $GOPATH/src/github.com/jaddqiu/grpc-location-service/cmd/locationsvc
 go install .
 locationsvc
 ```
-3. test the client
+3. test the client to see what will happen
 ```bash
 cd $GOPATH/src/github.com/jaddqiu/grpc-location-service/cmd/locationsvc
 go install .
