@@ -17,12 +17,12 @@ locationsvc
 ```
 3. test the client to see what will happen. os.Args[1] will be the person you want to check, os.Args[2] is the location you want to post for the person.
 ```bash
-cd $GOPATH/src/github.com/jaddqiu/grpc-location-service/cmd/locationsvc
+cd $GOPATH/src/github.com/jaddqiu/grpc-location-service/cmd/locationcli
 go install .
-locationsvc jadd
+locationcli jadd
 
-locationsvc jadd shenzhen
-locationsvc wy
-locationsvc wy shenzhen
-locationsvc wy
+locationcli jadd shenzhen
+locationcli wy
+locationcli wy shenzhen
+locationcli wy
 ```
